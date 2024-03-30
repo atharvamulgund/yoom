@@ -37,7 +37,9 @@
   color: white;
   height: 100%;
 }
-
+.str-video__call-controls{
+  flex-wrap: wrap;
+}
 .str-video__call-controls__button {
   height: 40px;
 }

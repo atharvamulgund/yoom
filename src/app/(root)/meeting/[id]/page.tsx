@@ -4,8 +4,9 @@ import MeetingSetup from '@/components/MeetingSetup'
 import { useUser } from '@clerk/nextjs'
 import { StreamCall, StreamTheme } from '@stream-io/video-react-sdk'
 import React, { useState } from 'react'
-import { useGetCallById } from '../../../../../hooks/getCallbyId'
-import Loader from '@/components/oader'
+
+import Loader from '@/components/Loader'
+import { useGetCallById } from '../../../../../hooks/getCallById'
 
 const Meeting = ({params:{id}}:{params:{id:string}}) => {
   const {user, isLoaded} =useUser()

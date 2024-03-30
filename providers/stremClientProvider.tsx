@@ -6,7 +6,7 @@ import {
   } from '@stream-io/video-react-sdk';
 import { ReactNode, useEffect, useState } from 'react';
 import { tokenProvider } from '../actions/stream.actions';
-import Loader from '@/components/oader';
+import Loader from '@/components/Loader';
   
   const apiKey = process.env.NEXT_PUBLIC_STREAM_API_KEY;
   
