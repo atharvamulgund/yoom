@@ -19,7 +19,7 @@ const Navbar = () => {
       </Link>
       <div className='flex-between gap-5'>
         <SignedIn>
-      <UserButton afterSignOutUrl='https://yooom.vercel.app/sign-in?redirect_url=https%3A%2F%2Fyooom.vercel.app%2F'/>
+      <UserButton afterSignOutUrl='/'/>
         </SignedIn>
         <MobileNav/>
       </div>
