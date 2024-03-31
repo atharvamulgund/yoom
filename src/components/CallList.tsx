@@ -73,8 +73,6 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
           const date = (new Intl.DateTimeFormat('en-US', { dateStyle: 'full' })).format((meeting as Call)?.state?.startsAt);
           const upcomingMeeting = date + ', ' + upcomingMeetingTime + ampm;
           if (upcomingMeeting) {
-            console.log(upcomingMeeting);
-            
             localStorage.setItem('upcoming', upcomingMeeting);
           }
          }
